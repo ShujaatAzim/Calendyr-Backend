@@ -1,9 +1,9 @@
 print "Seeding..."
 
-activity01 = Activity.create(date: Date.today, name: "Programming", complete: false)
-activity02 = Activity.create(date: Date.today, name: "Japanese", complete: false)
-activity03 = Activity.create(date: Date.today, name: "Chess", complete: false)
-activity04 = Activity.create(date: Date.today, name: "Exercise", complete: false)
+activity01 = Activity.create(date: Date.today, name: "Programming", complete: true)
+activity02 = Activity.create(date: Date.today, name: "Japanese", complete: true)
+activity03 = Activity.create(date: Date.today, name: "Chess", complete: true)
+activity04 = Activity.create(date: Date.today, name: "Exercise", complete: true)
 
 activity05 = Activity.create(date: Date.tomorrow, name: "Programming", complete: false)
 activity06 = Activity.create(date: Date.tomorrow, name: "Japanese", complete: false)
