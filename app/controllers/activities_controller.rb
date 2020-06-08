@@ -10,4 +10,13 @@ class ActivitiesController < ApplicationController
     render json: ActivitySerializer.new(@activity).to_serialized_json
   end
 
+  def create
+  end
+
+  def update
+  end
+
+  def destroy
+  end
+
 end
